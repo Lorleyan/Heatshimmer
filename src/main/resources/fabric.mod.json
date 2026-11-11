@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "heatshimmer",
+  "version": "${version}",
+  "name": "Heat Shimmer",
+  "description": "Heat haze that refracts the scenery behind exposed lava.",
+  "authors": ["You"],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["com.example.heatshimmer.HeatShimmerClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.19.5",
+    "minecraft": "~26.3",
+    "java": ">=25",
+    "fabric-api": "*"
+  }
+}
